@@ -23,6 +23,8 @@ public class TiposD {
 
         //texto
         char var8 = 'a';
-        String var9 = "lorem ipsum dolor sit amet..";
+        String var9 = "lorem ipsum dolor sit amet..";  //esto en realidad es una clase, por eso
+        /*empieza con mayuscula, y las comillas dobles son obligatorias al crear un string
+        si no lo marca como error*/
     }
 }
