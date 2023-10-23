@@ -17,6 +17,13 @@ public class Funciones {
         //Opcion 4 : Funcion con parametros y  con tipo de retorno
         String saludo = obtenerSaludo("gabriela", "Rodriguez");
         System.out.println(saludo);
+
+        int resultadoSuma = suma(50, 100);
+        System.out.println(resultadoSuma);
+    }
+
+    static int suma(int nro1, int nro2) {
+        return nro1 + nro2;
     }
 
     //void es un tipo de dato que indica que no devuelve nada...
