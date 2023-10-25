@@ -2,8 +2,8 @@ package com.example.estructurasControl.condicionales.repeticion;
 
 public class Switch {
 
-    public static void main(String[] args) {    
-        String dia = "Lunes";
+    public static void main(String[] args) {
+        String dia = "Domingo";
 
         switch (dia){
             case "Lune":
@@ -16,6 +16,7 @@ public class Switch {
                 System.out.println("Quiero ver arcane");
                 break;
             default:
+                System.out.println("jajas");
         }
     }
 }
